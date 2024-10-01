@@ -22,3 +22,13 @@ A Python-based automation tool using Robot Framework to attach to tmux or termin
 
    ```bash
    git clone /robot-terminal-runner.git
+
+
+## Usage
+
+### Running the Robot Framework Test
+
+1. **Activate the Virtual Environment:**
+
+   ```bash
+   source venv/bin/activate

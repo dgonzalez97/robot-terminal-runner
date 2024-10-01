@@ -294,7 +294,10 @@ cython_debug/
 *.out
 *.err
 
-# Robot Framework outputs
-output.xml
-log.html
-report.html
+# Ignore Robot Framework logs
+tests/output.xml
+tests/log.html
+tests/report.html
+
+# Ignore tmux output log
+tests/tmux_output.log
