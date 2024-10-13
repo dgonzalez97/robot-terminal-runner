@@ -1,3 +1,7 @@
+##NOTE TO SELF
+## there is some github repository that has a global .gitignore that you can use for this proyects.
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -301,3 +305,26 @@ tests/report.html
 
 # Ignore tmux output log
 tests/tmux_output.log
+
+# Sphinx build files
+docs/_build/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+
+# Robot Framework outputs
+tests/output.xml
+tests/log.html
+tests/report.html
+tests/tmux_output.log
+
+# IDE or editor specific files
+.vscode/
+.idea/
+
+
+##
