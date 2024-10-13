@@ -6,7 +6,9 @@ Thank you for considering contributing to this project!
 
 - Follow the [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html).
 - Use descriptive commit messages.
-- Ensure your code passes linting checks.
+- In a future an automatic linting and formater will be added to CI. At the moment, link and format your code running flake8 and black.
+- Add sphynx style comments.
+
 
 ## Reporting Issues
 
